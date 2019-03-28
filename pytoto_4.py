@@ -69,7 +69,7 @@ def main():
     #勝敗を予測し列に追加 
     for i in range(len(game_list)):
         game_list[i].pop()
-        game_lisせt[i].append(wdl(**wdl_dict))
+        game_list[i].append(wdl(**wdl_dict))
  
     print(tabulate(game_list,tbl_head,tablefmt="grid"))
  
